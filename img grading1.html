@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+     .header
+     {
+     	height: 1000px;
+     	width: 1000px;
+     	background:linear-gradient(45deg,rgb(14, 244, 71),rgba(0,255,0,0.2),rgba(14, 119, 217, 0.3)), url(C://Users//Graphics//Downloads//nature_image.jpeg);
+     	background-size:cover;
+     }
+     .one 
+     { 
+        height: 100px;
+        width: 80%;
+        border: 2px solid;
+        margin: ;
+     }
+     .left
+      {
+        width: 40%;
+        float: left;
+      }
+     .right
+     {
+        width: 60%;
+        float: left;
+     }
+     .left img{
+        width: 90%;
+        height: 300px;
+     }
+     .table {
+        height: 100px;
+        width: 50%;
+     }
+    
+     </style>
+</head>
+<body>
+	<div class="header">
+        <div class="main">
+    <div class="left">
+           <img src="C:\Users\Graphics\Downloads/download.png"></div>
+    <div class="right">
+        <from method="post" name="register-from" action="intro.html" enctype="multipart/from-data">
+           <table border="2" align="center" hight: 100px; width:50%; >
+            <caption><b>register_from</b></caption>
+            <tr> 
+               <td>name:</td>
+               <td><input type="text" name="name"></td>
+            </tr>
+            <tr> 
+                <td>email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>password:</td>
+                <td><inpuut type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>bio:</td>
+                <td><textarea name="bio"></textarea></td>
+            </tr>
+            <tr>
+                <td>photo:</td>
+                <td>
+                    <input type="file" name="photo">
+                </td>
+            </tr>
+            <tr>
+                <td>gender:</td>
+                <td><input type="radio" name="gendere" value="male">male
+                    <input type="radio" name="gendere" value="female">female
+                    <input type="radio" name="gendere" value="other">other
+                </td>
+                <tr>
+                    <td>language:</td>
+                    <td><input type="checkbox" name="lan" value="gujrati">gujrati
+                        <input type="checkbox" name="lan" value="hindi">hindi
+                        <input type="checkbox" name="lan" value="english">english
+                    </td>
+                </tr>
+            <tr>
+                <td align="center"></td>
+                    <td><input type="submit" name="submit" value="register">
+                    <input type="reset" name="reset" value="reset"></td>
+            </tr>
+            </table>
+            </from>
+     </div>
+    </div>
+</body>
+</html>

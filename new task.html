@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+    
+        .header
+     {
+     	height: 500px;
+     	width: 100%;
+     	background:linear-gradient(rgba(255, 179, 0),rgba(17, 17, 17, 0.2),rgba(28, 8, 255, 0.8)), url(C://Users//Graphics//Downloads//nature_image.jpeg);
+     	background-size:100% 100% ;
+        border: 2px solid;
+        
+     } 
+     .left
+     {
+        height: 100px;
+        width: 100px;
+        
+     }
+     .left img
+     {
+        margin: 120px;
+        height: 230px;
+        width: 200px;
+        border: 2px solid;
+        border-color: rgb(0, 0, 0);
+        
+     }
+     .right
+     {
+        height: 100px;
+        width: 100px;
+        margin-left: 350px;
+     }
+     .i 
+     {
+        background-color: rgb(245, 100, 16);
+        padding: 10px;
+        color:black;
+        border-radius: 50%;
+        /* margin: 50px; */
+     }
+     
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="other">
+    <div class="left">
+        <img src="C:\Users\Graphics\Downloads/download.png"></div>
+ <div class="right">
+     <from method="post" name="register-from" action="intro.html" enctype="multipart/from-data">
+        <table border="2" align="center" hight: 100px; width:50%; >
+         <caption><b>register_from</b></caption>
+         <tr> 
+            <td><i class="fa-solid fa-address-card"></i>name:</td>
+            <td><input type="text" name="name"></td>
+         </tr>
+         <tr> 
+             <td><i class="fa-solid fa-envelopes-bulk"></i>email:</td>
+             <td><input type="email" name="email"></td>
+             
+            
+         </tr>
+         <tr>
+            <td><i class="fa-solid fa-lock"></i>password:</td>
+            <td><input type="text" name="password"></td>
+         </tr>
+         <tr>
+             <td><i class="fa-solid fa-address-book"></i>bio:</td>
+             <td><textarea name="bio"></textarea></td>
+         </tr>
+         <tr>
+             <td><i class="fa-solid fa-image"></i>photo:</td>
+             <td>
+                 <input type="file" name="photo">
+             </td>
+         </tr>
+         <tr>
+             <td><i class="fa-solid fa-mars-double"></i>gender:</td>
+             <td><input type="radio" name="gendere" value="male">male
+                 <input type="radio" name="gendere" value="female">female
+                 <input type="radio" name="gendere" value="other">other
+             </td>
+             <tr>
+                 <td><i class="fa-solid fa-language"></i>language:</td>
+                 <td><input type="checkbox" name="lan" value="gujrati">gujrati
+                     <input type="checkbox" name="lan" value="hindi">hindi
+                     <input type="checkbox" name="lan" value="english">english
+                 </td>
+             </tr>
+         <tr>
+             <td align="center"></td>
+                 <td><input type="submit" name="submit" value="register">
+                 <input type="reset" name="reset" value="reset"></td>
+         </tr>
+         </table>
+         </from>
+         </div>
+         </div>
+  </div>
+ </div>
+</body>
+</html>
